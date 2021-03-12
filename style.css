@@ -1,0 +1,26 @@
+#app {}
+
+.par1 {}
+
+.par2 {}
+
+.body {
+    background-color: rgb(173, 172, 223);
+    text-align: center;
+}
+
+.jaro {
+    font-family: 'EB Garamond', serif;
+}
+
+.xD2 {
+    font-size: 30px;
+}
+
+.xD3 {
+    background-color: hotpink;
+}
+
+.jarolubiryz {
+    background-color: indigo;
+}
