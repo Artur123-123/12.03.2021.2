@@ -59,7 +59,15 @@ paragraf.innerText = "jaro je ryż"
 const app = document.getElementById('app')
 app.appendChild(paragraf)
 
+// const span = document.createElement('span')
+// span.setAttribute('class', 'jarolubiryz')
+// span.innerHTML = "beczka"
+// app.appendChild(span)
+
+const div = document.createElement('div')
+div.setAttribute('class', 'jarolubiryz')
 const span = document.createElement('span')
-span.setAttribute('class', 'jarolubiryz')
-span.innerText = "beczka"
-app.appendChild(span)
+span.innerText = "Radosław Jaro"
+
+div.appendChild(span)
+app.appendChild(div)
